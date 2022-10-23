@@ -19,3 +19,6 @@ plugin_postgres_darwin_amd64:
 
 plugin_postgres_darwin_arm64:
 	PLUGIN_OS=darwin PLUGIN_ARCH=arm64 make plugin_postgres
+
+release-glauth-postgres:
+	@P=postgres M=pkg/plugins/glauth-postgres make releaseplugi

@@ -1,8 +1,8 @@
-module github.com/glauth/glauth-sqlite
+module github.com/glauth/glauth-postgres
 
 go 1.25
 
 require (
-	github.com/glauth/glauth/v2 v2.1.0
-	github.com/lib/pq v1.10.7
+	github.com/glauth/glauth/v2 v2.5.2
+	github.com/lib/pq v1.12.3
 )
